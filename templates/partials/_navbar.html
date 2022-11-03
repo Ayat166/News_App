@@ -3,7 +3,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
  
     <div class="container-fluid">
-        <a class="navbar-brand text-warning" href="{% url 'index' %}" >AY news </a>
+        <a class="navbar-brand text-warning" href="{% url 'index' %}" >YA news </a>
   
   
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -31,7 +31,7 @@
                     <a class="nav-link" id="entertainment" href="{% url 'entertainment' %}" name="entertainment">Entertainment</a>
                 </li>
             </ul>
-            <form class="d-flex" action="{%url 'index'%}">
+            <form class="d-flex" action="{%url 'search'%}">
 
                 <input class="form-control me-2" type="text" id="newsQuery" name="search" placeholder="Search news">
                 <button class="btn btn-outline-warning" type="submit" name="btnsearch" id="searchBtn">Search</button>
